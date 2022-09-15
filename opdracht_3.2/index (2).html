@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <form action="result.html" method="post">
+        <div>
+        <label for="name">Voornaam</label>
+        <input type="text"id="Name" name="name" placeholder="Voornaam" required>
+        </div>
+    
+        <div>
+    <label for="surname">Achternaam</label>
+    <input type="text" id="surname" name="surname" placeholder="Achternaam" required>
+    </div>
+
+    <div>
+          <label for="gender">Geslacht:</label>
+          <select name="gender" id="Gender" form="Geslacht">
+          <option value="Male">Man</option>
+          <option value="Female">Vrouw</option>
+          </select> 
+   </div>
+   <div>
+    <label for="street">Straatnaam</label>
+	<input type="text" id="street" placeholder="Straatnaam">
+    <label for="number">Huis nummer</label>
+	<input type="number" id="nubmer" placeholder="Huisnummer"required>
+   </div>
+   <div>
+    <label for="postcode">Postcode</label>
+			<input type="number" class="postcode" pattern="[0-9]{4}" placeholder="4 nummers"/> 
+			<input type="text" class="postcode" pattern="[A-Z]{2}" placeholder="2 letters"/>
+   </div>
+   <div>
+    <label for="City">Stad</label>
+	<input type="text" id="land" placeholder="Stad">
+   </div>
+   
+   <div>
+    <label for="land">Land</label>
+	<input type="text" id="land" placeholder="Land">
+   </div>
+<div>
+
+		
+</div>
+
+
+
+
+<div>
+  <button type="submit">Submit</button>
+  <button type="reset">Reset</button>
+</div>
+    </form>
+</body>
+</html>
