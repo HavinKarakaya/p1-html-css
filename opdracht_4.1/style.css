@@ -1,0 +1,56 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: rgb(241, 11, 11);
+  font-size: xxx-large;
+  font-weight: bold;
+  font-style: italic;
+}
+h2 {
+  font-size: 20px;
+  color: #0000ff;
+  font-weight: bold;
+  margin-left: 2%;
+  
+}
+h3 {
+  font-size: 16;
+  color: teal;
+  font-weight: bold;
+  margin-left: 1%;
+}
+p {
+  color: #4d4d4d;
+  margin-left: 1%;
+}
+a {
+  color: #8a2be2;
+  text-decoration: none;
+}
+.paragraph {
+  font-weight: bold;
+  
+}
+
+.hero {
+  color: rgb(241, 11, 11);
+  background-image: url(../opdracht_4.1/gameinfo.jpg);
+  font-size: xx-large;
+}
+.articles {
+  border-width: 5px;
+  border-radius: 25px;
+  color: rgb(20, 74, 200);
+  border-style: solid;
+  margin-top: 2%;
+  
+}
+.figure{
+  width:50em;
+  margin-left:1%; 
+  
+} 
+
+
