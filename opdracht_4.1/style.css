@@ -36,7 +36,7 @@ a {
 
 .hero {
   color: rgb(241, 11, 11);
-  background-image: url(../opdracht_4.1/gameinfo.jpg);
+  
   font-size: xx-large;
 }
 .articles {
@@ -50,7 +50,6 @@ a {
 .figure{
   width:50em;
   margin-left:1%; 
-  
-} 
+  } 
 
 

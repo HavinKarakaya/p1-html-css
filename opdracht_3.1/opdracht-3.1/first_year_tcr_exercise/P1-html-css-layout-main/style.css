@@ -5,13 +5,12 @@
 }
 html {
   font-size: 62.5%;
-}
+ }
 body {
   font-family: "Goldman", cursive;
-   }
-   
-
-
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
 nav {
   display: flex;
   width: 100%;
@@ -39,3 +38,32 @@ nav a {
 nav img {
   width: 5vw;
 }
+img {
+  max-width: 50%;
+  height: 50%;
+ 
+}
+.footer {
+  background: #00a8c7;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  font-size: 2.5rem;
+}
+.section {
+  font-size: 4rem;
+  
+}
+  
+.background-image{
+  background-image: url(./img/hackerafbeelding.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  bottom: 0;
+
+}
+
+  
+  
